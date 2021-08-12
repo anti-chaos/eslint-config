@@ -1,0 +1,39 @@
+{
+  "name": "@ntks/eslint-config",
+  "version": "0.0.0",
+  "description": "Anti-chaos ESLint Config",
+  "main": "index.js",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Ourai Lin <ourairyu@gmail.com> (https://ourai.ws/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anti-chaos/eslint-config.git"
+  },
+  "homepage": "https://github.com/anti-chaos/eslint-config#readme",
+  "scripts": {
+    "release": "npm publish --access=public"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.16.1",
+    "@vue/eslint-config-standard": "^6.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-vue": "^7.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "prettier": "^2.2.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.21.0",
+    "prettier": ">=2.2.1"
+  }
+}
